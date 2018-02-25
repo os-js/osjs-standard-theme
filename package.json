@@ -1,0 +1,23 @@
+{
+  "name": "@osjs/standard-theme",
+  "version": "3.0.0-alpha.1",
+  "description": "OS.js v3 Standard Theme",
+  "main": "index.js",
+  "style": "index.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osjs/osjs-standard-theme.git"
+  },
+  "keywords": [
+    "osjs"
+  ],
+  "author": "Anders Evenrud <andersevenrud@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/osjs/osjs-standard-theme/issues"
+  },
+  "homepage": "https://github.com/osjs/osjs-standard-theme#readme"
+}
