@@ -234,6 +234,14 @@ $window-background: #ebebeb;
 
 .osjs-notification {
   @include panel;
+
+  .title {
+    font-weight: bold;
+  }
+
+  .message {
+    margin-top: 1em;
+  }
 }
 
 .osjs-gui-progressbar {
