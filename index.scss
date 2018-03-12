@@ -69,6 +69,19 @@ $window-background: #ebebeb;
   font-family: $font-family;
 }
 
+.osjs-gui-border {
+  border: 1px solid #c1c1c1;
+  box-sizing: border-box;
+}
+
+.osjs-gui-absolute-fill {
+  position: absolute;
+  top: $base-margin / 2;
+  left: $base-margin / 2;
+  bottom: $base-margin / 2;
+  right: $base-margin / 2;
+}
+
 //
 // Window
 //
@@ -178,11 +191,6 @@ $window-background: #ebebeb;
 //
 // GUI
 //
-
-.osjs-gui-border {
-  border: 1px solid #c1c1c1;
-  box-sizing: border-box;
-}
 
 .osjs-gui-button {
   & > button {
