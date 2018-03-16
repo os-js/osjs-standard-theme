@@ -1,4 +1,4 @@
-/*!
+/*
  * OS.js - JavaScript Cloud/Web Desktop Platform
  *
  * Copyright (c) 2011-2018, Anders Evenrud <andersevenrud@gmail.com>
@@ -28,24 +28,107 @@
  * @licence Simplified BSD License
  */
 
-@import "src/variables";
-@import "src/mixins";
-@import "src/core";
-@import "src/gui";
-
-.osjs-root {
-  font-family: $font-family;
+.osjs-gui-button {
+  & > button {
+    @include input;
+  }
 }
 
-.osjs-gui-border {
-  border: 1px solid #c1c1c1;
-  box-sizing: border-box;
+.osjs-gui-input {
+  & > select,
+  & > textarea,
+  & > input {
+    @include input-text;
+    font-size: inherit;
+    font-family: $font-family;
+  }
+
+  & > .osjs-gui-input-toggle {
+    & > label {
+      & > input[type=radio] + span::before {
+        border-radius: 100%;
+      }
+
+      & > span {
+        &::before {
+          @include input;
+        }
+      }
+    }
+  }
 }
 
-.osjs-gui-absolute-fill {
-  position: absolute;
-  top: $base-margin / 2;
-  left: $base-margin / 2;
-  bottom: $base-margin / 2;
-  right: $base-margin / 2;
+.osjs-gui-menu {
+  ul {
+    @include panel;
+  }
+
+  li:hover > div > span {
+    background-color: #fff;
+    color: #000;
+  }
+}
+
+.osjs-gui-menubar {
+  & > div {
+    cursor: pointer;
+
+    &:hover {
+      background-color: blue;
+      color: #fff;
+    }
+  }
+}
+
+.osjs-notification {
+  @include panel;
+
+  .title {
+    font-weight: bold;
+  }
+
+  .message {
+    margin-top: 1em;
+  }
+}
+
+.osjs-gui-progressbar {
+  @include input;
+
+  & > .value {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+.osjs-gui-list-view {
+  @include input-text;
+
+  .header {
+    @include input;
+    border: 0 none;
+  }
+
+  .active {
+    background-color: blue;
+    color: #fff;
+  }
+}
+
+.osjs-gui-tabs {
+
+  & > .header {
+    & > div {
+      @include input;
+
+      &.active {
+        border-bottom-color: #d9d9d9;
+      }
+    }
+  }
+
+  & > .panes {
+    @include input;
+    margin-top: -1px;
+  }
+
 }

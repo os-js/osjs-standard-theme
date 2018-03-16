@@ -1,4 +1,4 @@
-/*!
+/*
  * OS.js - JavaScript Cloud/Web Desktop Platform
  *
  * Copyright (c) 2011-2018, Anders Evenrud <andersevenrud@gmail.com>
@@ -28,24 +28,7 @@
  * @licence Simplified BSD License
  */
 
-@import "src/variables";
-@import "src/mixins";
-@import "src/core";
-@import "src/gui";
+$font-family: 'Roboto', sans-serif;
+$window-border: 1px solid #716c6c;
+$window-background: #ebebeb;
 
-.osjs-root {
-  font-family: $font-family;
-}
-
-.osjs-gui-border {
-  border: 1px solid #c1c1c1;
-  box-sizing: border-box;
-}
-
-.osjs-gui-absolute-fill {
-  position: absolute;
-  top: $base-margin / 2;
-  left: $base-margin / 2;
-  bottom: $base-margin / 2;
-  right: $base-margin / 2;
-}
