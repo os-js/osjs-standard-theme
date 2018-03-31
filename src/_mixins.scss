@@ -32,20 +32,54 @@
   box-shadow: 0 0 $base-margin rgba(0, 0, 0, 0.5);
 }
 
+@mixin focusable {
+  &:focus {
+    outline: $outline;
+  }
+
+  &:disabled {
+    opacity: 0.8;
+  }
+}
+
 @mixin panel {
   @include shadowed;
   background: rgba(0, 0, 0, 0.9);
   color: #fff;
 }
 
-@mixin input {
-  border: 1px solid #c1c1c1;
-  background-color: #d9d9d9;
+@mixin button {
+  @include focusable;
+  border: $button-border;
+  background: $button-background-fallback;
+  background: $button-background;
+  color: $button-foreground;
+
+  &:active {
+    border: $button-border-active;
+    background: $button-background-active;
+    outline: 0 none;
+  }
+
+  &:disabled {
+    color: lighten($button-foreground, 50%);
+  }
 }
 
-@mixin input-text {
-  @include input;
-  background-color: #fff;
+@mixin input {
+  @include focusable;
+  border: $input-border;
+  background: $input-background;
+  color: $input-foreground;
+
+  &:disabled {
+    color: lighten($input-foreground, 50%);
+  }
+}
+
+@mixin view {
+  border: $view-border;
+  background: $view-background;
 }
 
 @mixin window-button($from, $to) {
