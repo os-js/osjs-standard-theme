@@ -1,6 +1,6 @@
 {
   "name": "@osjs/standard-theme",
-  "version": "3.0.0-alpha.7",
+  "version": "3.0.0-alpha.8",
   "description": "OS.js v3 Standard Theme",
   "main": "index.js",
   "style": "index.scss",
@@ -15,7 +15,7 @@
     "osjs"
   ],
   "dependencies": {
-    "@osjs/cli": "^3.0.0-alpha.8"
+    "@osjs/cli": "^3.0.0-alpha.10"
   },
   "author": "Anders Evenrud <andersevenrud@gmail.com>",
   "license": "BSD-2-Clause",
