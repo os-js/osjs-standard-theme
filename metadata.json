@@ -1,0 +1,14 @@
+{
+  "type": "theme",
+  "name": "Standard",
+  "title": {
+    "en_EN": "Standard Theme"
+  },
+  "description": {
+    "en_EN": "Standard Theme"
+  },
+  "files": [
+    "index.js",
+    "index.css"
+  ]
+}
