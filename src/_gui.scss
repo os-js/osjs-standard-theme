@@ -117,19 +117,29 @@
 
 .osjs-gui-tabs {
 
-  & > .header {
-    & > div {
-      @include view;
+  .osjs-gui-tabs-wrapper {
+    & > .header {
+      & > div {
+        @include view;
 
-      &.active {
-        border-bottom-color: #d9d9d9;
+        &.active {
+          border-bottom-color: $window-background;
+          background-color: transparent;
+        }
       }
     }
-  }
 
-  & > .panes {
-    @include view;
-    margin-top: -1px;
+    & > .panes {
+      margin-top: -1px;
+
+      & > div {
+        @include view;
+
+        &.active {
+          background-color: transparent;
+        }
+      }
+    }
   }
 
 }
