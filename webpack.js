@@ -30,9 +30,8 @@
 
 const path = require('path');
 const manifest = require('./metadata.json');
-const {createWebpack} = require('@osjs/cli')
 
-module.exports = (options) => createWebpack(__dirname, {
+module.exports = (options, {createWebpack}) => createWebpack(__dirname, {
   outputPath: path.resolve(options.dist.themes, manifest.name),
   entry: {
     index: [
