@@ -1,6 +1,12 @@
 # Changelog for osjs-standard-theme
 
+## 3.0.0-alpha.11
+
+* Added npmignore
+* Added CHANGELOG
+
 ## 3.0.0-alpha.10
+
 * Fixed webpack config
 * Correction of Tabs color usage
 
