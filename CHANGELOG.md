@@ -1,5 +1,10 @@
 # Changelog for osjs-standard-theme
 
+## 3.0.0-alpha.12
+
+* Make loading overlay unclickable
+* Added scrollbar styles
+
 ## 3.0.0-alpha.11
 
 * Added npmignore
