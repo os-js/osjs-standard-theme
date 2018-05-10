@@ -86,8 +86,12 @@
     opacity: 0.5;
   }
 
-  &[data-loading=true]::after {
-    background: rgba(0, 0, 0, 0.5);
+  &[data-loading=true] {
+    pointer-events: none;
+
+    &::after {
+      background: rgba(0, 0, 0, 0.5);
+    }
   }
 
   &[data-focused=true] {
