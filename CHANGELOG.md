@@ -1,5 +1,9 @@
 # Changelog for osjs-standard-theme
 
+## 3.0.0-alpha.13
+
+* Removed hash for icon filenames in dist
+
 ## 3.0.0-alpha.12
 
 * Make loading overlay unclickable
