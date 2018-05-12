@@ -33,6 +33,11 @@ const manifest = require('./metadata.json');
 
 module.exports = (options, {createWebpack}) => createWebpack(__dirname, {
   outputPath: path.resolve(options.dist.themes, manifest.name),
+  fileLoader: {
+    name(file) {
+      return file.match(/src\/icons/) ? 'icons/[name].[ext]' : '[hash].[ext]';
+    }
+  },
   entry: {
     index: [
       path.resolve(__dirname, 'index.js'),
