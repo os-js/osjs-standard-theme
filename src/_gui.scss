@@ -34,25 +34,30 @@
   }
 }
 
-.osjs-gui-input {
-  & > select,
-  & > textarea,
-  & > input {
+.osjs-gui-input,
+.osjs-gui-field {
+  select,
+  textarea,
+  input {
     @include input;
     font-size: inherit;
     font-family: $font-family;
   }
+}
 
-  & > .osjs-gui-input-toggle {
-    & > label {
-      & > input[type=radio] + span::before {
-        border-radius: 100%;
+.osjs-gui-toggle-field {
+  & > label {
+    & > input[type=radio] + span.osjs-toggle-input::before {
+      border-radius: 100%;
+    }
+
+    & > span.osjs-toggle-input {
+      &::before {
+        @include button;
       }
 
-      & > span {
-        &::before {
-          @include button;
-        }
+      &::after {
+        margin: 1px;
       }
     }
   }
