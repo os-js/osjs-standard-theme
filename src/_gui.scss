@@ -107,7 +107,9 @@
 }
 
 .osjs-gui-list-view {
-  @include input;
+  .osjs-gui-list-view-wrapper {
+    @include input;
+  }
 
   .header {
     @include view;
