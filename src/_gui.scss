@@ -98,10 +98,12 @@
 }
 
 .osjs-gui-progressbar {
-  @include view;
-  color: $progress-foreground;
+  & > .osjs-gui-progressbar-wrapper {
+    @include view;
+    color: $progress-foreground;
+  }
 
-  & > .value {
+  .value {
     background: $progress-background;
   }
 }
