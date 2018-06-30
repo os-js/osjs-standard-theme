@@ -1,5 +1,9 @@
 # Changelog for osjs-standard-theme
 
+## 3.0.0-alpha.14
+
+* Updated for latest changes in @osjs/gui
+
 ## 3.0.0-alpha.13
 
 * Removed hash for icon filenames in dist
