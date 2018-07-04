@@ -125,7 +125,6 @@
 }
 
 .osjs-gui-tabs {
-
   .osjs-gui-tabs-wrapper {
     & > .header {
       & > div {
@@ -150,5 +149,8 @@
       }
     }
   }
+}
 
+.osjs-gui-box-styled {
+  @include input;
 }
