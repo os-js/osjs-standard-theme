@@ -1,5 +1,10 @@
 # Changelog for osjs-standard-theme
 
+## 3.0.0-alpha.15
+
+* Added 'BoxStyled' component styles
+* Removed unused styles
+
 ## 3.0.0-alpha.14
 
 * Updated for latest changes in @osjs/gui
