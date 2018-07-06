@@ -28,28 +28,23 @@
  * @licence Simplified BSD License
  */
 
-const register = (core, desktop, options, metadata) => {
+.osjs-root > .osjs-window {
 
-  desktop.on('theme:window:change', (win, name, value) => {
-    if (name === 'minimized' && value === false) {
-      win.state.styles.display = 'block';
-      win._updateDOM();
-    }
-  });
+  &[data-minimized="true"] {
+    opacity: 0;
+    pointer-events: none;
+    display: block; /* We'll do this with JS */
+  }
 
-  desktop.on('theme:window:transitionend', (ev, win) => {
-    if (ev.propertyName === 'opacity') {
-      const {$element} = win;
-      const css = window.getComputedStyle($element);
+  &[data-minimized="false"] {
+    display: block;
+  }
 
-      win.state.styles.display = css.visibility === 'hidden'
-        ? 'none'
-        : 'block';
+  &:not([data-moving="true"]):not([data-resizing="true"]) {
+    transition: all ease-in-out 0.1s;
+  }
+}
 
-      win._updateDOM();
-    }
-  });
-};
-
-OSjs.make('osjs/packages')
-  .register('Standard', register);
+.osjs-panel-item[data-name="windows"] > div {
+  transition: all ease-in-out 0.1s;
+}
