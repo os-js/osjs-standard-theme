@@ -1,6 +1,6 @@
 {
   "name": "@osjs/standard-theme",
-  "version": "3.0.0-alpha.15",
+  "version": "3.0.0-alpha.16",
   "description": "OS.js v3 Standard Theme",
   "main": "index.js",
   "style": "index.scss",

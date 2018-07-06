@@ -1,5 +1,9 @@
 # Changelog for osjs-standard-theme
 
+## 3.0.0-alpha.16
+
+* Added basic animations
+
 ## 3.0.0-alpha.15
 
 * Added 'BoxStyled' component styles
