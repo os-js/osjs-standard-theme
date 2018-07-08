@@ -1,5 +1,9 @@
 # Changelog for osjs-standard-theme
 
+## 3.0.0-alpha.17
+
+* Added 'active' attribute for button
+
 ## 3.0.0-alpha.16
 
 * Added basic animations
