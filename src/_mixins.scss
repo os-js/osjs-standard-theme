@@ -55,6 +55,7 @@
   background: $button-background;
   color: $button-foreground;
 
+  &[active=true],
   &:active {
     border: $button-border-active;
     background: $button-background-active;
