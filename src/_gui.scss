@@ -72,6 +72,10 @@
     background-color: #fff;
     color: #000;
   }
+
+  .osjs__disabled {
+    opacity: 0.5;
+  }
 }
 
 .osjs-gui-menubar {
@@ -97,56 +101,50 @@
   }
 }
 
-.osjs-gui-progressbar {
-  & > .osjs-gui-progressbar-wrapper {
-    @include view;
-    color: $progress-foreground;
-  }
+.osjs-gui-progressbar-wrapper {
+  @include view;
+  color: $progress-foreground;
+}
 
-  .value {
-    background: $progress-background;
-  }
+.osjs-gui-progressbar-value {
+  background: $progress-background;
 }
 
 .osjs-gui-list-view {
-  .osjs-gui-list-view-wrapper {
-    @include input;
-  }
-
-  .header {
-    @include view;
-    border: 0 none;
-  }
-
-  .active {
+  .osjs__active {
     background: $active-background;
     color: $active-foreground;
   }
 }
 
-.osjs-gui-tabs {
-  .osjs-gui-tabs-wrapper {
-    & > .header {
-      & > div {
-        @include view;
+.osjs-gui-list-view-wrapper {
+  @include input;
+}
 
-        &.active {
-          border-bottom-color: $window-background;
-          background-color: transparent;
-        }
-      }
+.osjs-gui-list-view-header {
+  @include view;
+  border: 0 none;
+}
+
+.osjs-gui-tabs-header {
+  & > div {
+    @include view;
+
+    &.osjs__active {
+      border-bottom-color: $window-background;
+      background-color: transparent;
     }
+  }
+}
 
-    & > .panes {
-      margin-top: -1px;
+.osjs-gui-tabs-panes {
+  margin-top: -1px;
 
-      & > div {
-        @include view;
+  & > div {
+    @include view;
 
-        &.active {
-          background-color: transparent;
-        }
-      }
+    &.osjs__active {
+      background-color: transparent;
     }
   }
 }
