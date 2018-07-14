@@ -77,10 +77,7 @@
 //
 
 .osjs-window {
-  border: $window-border;
-  background: $window-background;
-  border-radius: 4px;
-  @include shadowed;
+  @include window;
 
   &[data-focused=false] {
     opacity: 0.5;

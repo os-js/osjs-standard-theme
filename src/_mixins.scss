@@ -87,3 +87,10 @@
   background: $from;
   background: linear-gradient(to bottom, $from 0%, $to 100%);
 }
+
+@mixin window {
+  border: $window-border;
+  background: $window-background;
+  border-radius: 4px;
+  @include shadowed;
+}
