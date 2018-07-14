@@ -1,5 +1,9 @@
 # Changelog for osjs-standard-theme
 
+## 3.0.0-alpha.19
+
+* Removed .osjs-icon, moved to GUI package
+
 ## 3.0.0-alpha.18
 
 * Center Window titles
