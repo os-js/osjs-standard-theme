@@ -115,6 +115,10 @@
     background: $active-background;
     color: $active-foreground;
   }
+
+  .rows > div:nth-child(2n+1):not(.osjs__active) {
+    background-color: $zebra-background;
+  }
 }
 
 .osjs-gui-list-view-wrapper {
