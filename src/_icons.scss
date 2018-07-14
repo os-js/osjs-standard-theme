@@ -1,13 +1,4 @@
 .osjs-icon {
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-color: transparent;
-  background-size: 100%;
-  min-width: 1em;
-  min-height: 1em;
-  display: inline-block;
-  vertical-align: middle;
-
   &[data-icon="address-book-new"] {
     background-image: url("src/icons/actions/address-book-new.png");
   }
