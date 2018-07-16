@@ -93,11 +93,11 @@
 .osjs-notification {
   @include panel;
 
-  .title {
+  .osjs-notification-title {
     font-weight: bold;
   }
 
-  .message {
+  .osjs-notification-message {
     margin-top: 1em;
   }
 }
