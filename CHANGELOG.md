@@ -1,5 +1,11 @@
 # Changelog for osjs-standard-theme
 
+## 3.0.0-alpha.20
+
+* Updated notification styles
+* Updated mixins
+* Added ListView zebra striping
+
 ## 3.0.0-alpha.19
 
 * Removed .osjs-icon, moved to GUI package
