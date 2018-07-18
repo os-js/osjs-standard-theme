@@ -40,17 +40,37 @@
   textarea,
   input {
     @include input;
+
     font-size: inherit;
     font-family: $font-family;
   }
 }
 
+.osjs-gui-tabs-header {
+  & > div {
+    @include view;
+
+    &.osjs__active {
+      border-bottom-color: $window-background;
+      background-color: transparent;
+    }
+  }
+}
+
+.osjs-gui-tabs-panes {
+  margin-top: -1px;
+
+  & > div {
+    @include view;
+
+    &.osjs__active {
+      background-color: transparent;
+    }
+  }
+}
+
 .osjs-gui-toggle-field {
   & > label {
-    & > input[type=radio] + span.osjs-toggle-input::before {
-      border-radius: 100%;
-    }
-
     & > span.osjs-toggle-input {
       &::before {
         @include button;
@@ -59,6 +79,10 @@
       &::after {
         margin: 1px;
       }
+    }
+
+    & > input[type=radio] + span.osjs-toggle-input::before {
+      border-radius: 100%;
     }
   }
 }
@@ -104,6 +128,7 @@
 
 .osjs-gui-progressbar-wrapper {
   @include view;
+
   color: $progress-foreground;
 }
 
@@ -128,30 +153,8 @@
 
 .osjs-gui-list-view-header {
   @include view;
+
   border: 0 none;
-}
-
-.osjs-gui-tabs-header {
-  & > div {
-    @include view;
-
-    &.osjs__active {
-      border-bottom-color: $window-background;
-      background-color: transparent;
-    }
-  }
-}
-
-.osjs-gui-tabs-panes {
-  margin-top: -1px;
-
-  & > div {
-    @include view;
-
-    &.osjs__active {
-      background-color: transparent;
-    }
-  }
 }
 
 .osjs-gui-box-styled {

@@ -44,12 +44,14 @@
 
 @mixin panel {
   @include shadowed;
+
   background: rgba(0, 0, 0, 0.9);
   color: #fff;
 }
 
 @mixin button {
   @include focusable;
+
   border: $button-border;
   background: $button-background-fallback;
   background: $button-background;
@@ -69,6 +71,7 @@
 
 @mixin input {
   @include focusable;
+
   border: $input-border;
   background: $input-background;
   color: $input-foreground;
@@ -92,5 +95,6 @@
   border: $window-border;
   background: $window-background;
   border-radius: 4px;
+
   @include shadowed;
 }
