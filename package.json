@@ -6,7 +6,7 @@
   "style": "index.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "eslint": "eslint index.js src/**/*.js",
+    "eslint": "eslint index.js",
     "stylelint": "stylelint index.scss src/**/*.scss"
   },
   "repository": {
