@@ -1,5 +1,17 @@
 # Changelog for osjs-standard-theme
 
+## 3.0.0-alpha.21
+
+* Added search gui styles
+* Added IconView component styles
+* Updated npmignore
+* Added eslintrc
+* Updated eslint script
+* Lint pass
+* Added travis-ci badge to README
+* Added initial travis-ci config
+* Added stylelintrc
+
 ## 3.0.0-alpha.20
 
 * Updated notification styles
