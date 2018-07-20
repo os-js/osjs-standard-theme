@@ -184,3 +184,21 @@
     opacity: 0.5;
   }
 }
+
+//
+// Search
+//
+
+.osjs-search-input {
+  border: 0 none;
+  background-color: #fff;
+}
+
+.osjs-search-result {
+  &:hover,
+  &.osjs__active {
+    // TODO: Move to theme
+    background-color: #fff;
+    color: #000;
+  }
+}
