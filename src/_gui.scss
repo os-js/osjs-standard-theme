@@ -87,6 +87,16 @@
   }
 }
 
+.osjs-gui-icon-view-wrapper {
+  @include input;
+
+  .osjs__active .osjs__label,
+  .osjs__active .osjs__image {
+    background: $active-background;
+    color: $active-foreground;
+  }
+}
+
 .osjs-gui-menu {
   ul {
     @include panel;
