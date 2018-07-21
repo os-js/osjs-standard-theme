@@ -1,5 +1,9 @@
 # Changelog for osjs-standard-theme
 
+## 3.0.0-alpha.22
+
+* Updated Windows compability
+
 ## 3.0.0-alpha.21
 
 * Added search gui styles
