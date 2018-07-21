@@ -35,7 +35,7 @@ module.exports = (options, {createWebpack}) => createWebpack(__dirname, {
   outputPath: path.resolve(options.dist.themes, manifest.name),
   fileLoader: {
     name(file) {
-      return file.match(/src\/icons/) ? 'icons/[name].[ext]' : '[hash].[ext]';
+      return file.replace(/\\/g, '/').match(/src\/icons/) ? 'icons/[name].[ext]' : '[hash].[ext]';
     }
   },
   entry: {
