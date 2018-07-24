@@ -1,5 +1,10 @@
 # Changelog for osjs-standard-theme
 
+## 3.0.0-alpha.24
+
+* Updated README
+* Publish in production mode
+
 ## 3.0.0-alpha.23
 
 * Publish as npm module
