@@ -8,7 +8,7 @@
     "en_EN": "Standard Theme"
   },
   "files": [
-    "index.js",
-    "index.css"
+    "main.js",
+    "main.css"
   ]
 }

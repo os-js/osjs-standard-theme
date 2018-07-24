@@ -28,6 +28,8 @@
  * @licence Simplified BSD License
  */
 
+import './index.scss';
+
 const register = (core, desktop, options, metadata) => {
 
   desktop.on('theme:window:change', (win, name, value) => {
