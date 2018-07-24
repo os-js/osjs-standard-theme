@@ -1,5 +1,9 @@
 # Changelog for osjs-standard-theme
 
+## 3.0.0-alpha.23
+
+* Publish as npm module
+
 ## 3.0.0-alpha.22
 
 * Updated Windows compability
