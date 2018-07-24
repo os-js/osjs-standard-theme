@@ -15,4 +15,9 @@ This is the Default Theme module for OS.js v3
 
 [![Build Status](https://travis-ci.org/os-js/osjs-standard-theme.svg?branch=master)](https://travis-ci.org/os-js/osjs-standard-theme)
 
-**PLEASE NOTE THAT THIS IS AN ALPHA PRE-RELEASE AND SUBJECT TO CHANGE WITHOUT NOTICE**
+## Installation
+
+```bash
+npm install --save @osjs/standard-theme
+npm run package:discover
+```
