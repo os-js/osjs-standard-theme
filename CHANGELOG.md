@@ -1,5 +1,9 @@
 # Changelog for osjs-standard-theme
 
+## 3.0.0-alpha.25
+
+* Moved icons into separate icons package
+
 ## 3.0.0-alpha.24
 
 * Updated README
