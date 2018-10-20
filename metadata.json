@@ -2,10 +2,12 @@
   "type": "theme",
   "name": "Standard",
   "title": {
-    "en_EN": "Standard Theme"
+    "en_EN": "Standard Theme",
+    "fr_FR": "Thème Standard"
   },
   "description": {
-    "en_EN": "Standard Theme"
+    "en_EN": "Standard Theme",
+    "fr_FR": "Thème Standard"
   },
   "files": [
     "main.js",
