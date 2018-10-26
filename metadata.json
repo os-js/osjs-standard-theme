@@ -3,11 +3,13 @@
   "name": "Standard",
   "title": {
     "en_EN": "Standard Theme",
-    "fr_FR": "Thème Standard"
+    "fr_FR": "Thème Standard",
+    "de_DE": "Standard-Thema"
   },
   "description": {
     "en_EN": "Standard Theme",
-    "fr_FR": "Thème Standard"
+    "fr_FR": "Thème Standard",
+    "de_DE": "Standard-Thema"
   },
   "files": [
     "main.js",
