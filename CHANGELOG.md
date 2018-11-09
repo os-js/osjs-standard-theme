@@ -1,5 +1,10 @@
 # Changelog for osjs-standard-theme
 
+## 4.0.0
+
+* Added french translations
+* Changed name to 'StandardTheme'
+
 ## 3.0.0-alpha.25
 
 * Moved icons into separate icons package
