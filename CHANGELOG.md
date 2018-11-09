@@ -1,5 +1,9 @@
 # Changelog for osjs-standard-theme
 
+## 4.0.1
+
+* Updated registration
+
 ## 4.0.0
 
 * Added french translations
