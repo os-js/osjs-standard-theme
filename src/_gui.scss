@@ -170,3 +170,11 @@
 .osjs-gui-box-styled {
   @include input;
 }
+
+.osjs-gui-expander {
+  &-header {
+    @include view;
+
+    border: 0 none;
+  }
+}
