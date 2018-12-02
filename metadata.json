@@ -4,12 +4,14 @@
   "title": {
     "en_EN": "Standard Theme",
     "fr_FR": "Thème Standard",
-    "de_DE": "Standard-Thema"
+    "de_DE": "Standard-Thema",
+    "sl_SI": "Standardna Tema"
   },
   "description": {
     "en_EN": "Standard Theme",
     "fr_FR": "Thème Standard",
-    "de_DE": "Standard-Thema"
+    "de_DE": "Standard-Thema",
+    "sl_SI": "Standardna Tema"
   },
   "files": [
     "main.js",
