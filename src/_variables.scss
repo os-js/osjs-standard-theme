@@ -36,19 +36,21 @@ $font-color: #242424;
 $window-border: 1px solid #716c6c;
 $window-background: #ebebeb;
 
+$main-border-color: #c1c1c1;
+
 $input-background: #fff;
-$input-border: 1px solid #c1c1c1;
+$input-border: 1px solid $main-border-color;
 $input-foreground: $font-color;
 
 $button-background-fallback: #d9d9d9;
 $button-background-active: linear-gradient(to bottom, #f4f4f4 0%, #f8f8f8 100%);
 $button-background: linear-gradient(to bottom, #f8f8f8 0%, #f4f4f4 100%);
 $button-border-active: 1px solid #242424;
-$button-border: 1px solid #c1c1c1;
+$button-border: 1px solid $main-border-color;
 $button-foreground: $font-color;
 
 $view-background: #d9d9d9;
-$view-border: 1px solid #c1c1c1;
+$view-border: 1px solid $main-border-color;
 
 $active-background: rgba(0, 0, 200, 0.9);
 $active-foreground: #fff;
