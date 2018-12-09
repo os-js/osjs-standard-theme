@@ -1,4 +1,4 @@
-/*!
+/*
  * OS.js - JavaScript Cloud/Web Desktop Platform
  *
  * Copyright (c) 2011-2018, Anders Evenrud <andersevenrud@gmail.com>
@@ -28,10 +28,33 @@
  * @licence Simplified BSD License
  */
 
-@import "src/variables";
-@import "src/mixins";
-@import "src/core";
-@import "src/desktop";
-@import "src/windows";
-@import "src/gui";
-@import "src/animations";
+//
+// Panel
+//
+
+.osjs-panel {
+  @include panel;
+}
+
+.osjs-panel-item[data-name=windows] {
+  & > div[data-focused=false] {
+    opacity: 0.5;
+  }
+}
+
+//
+// Search
+//
+
+.osjs-search-input {
+  border: 0 none;
+  background-color: #fff;
+}
+
+.osjs-search-result {
+  &:hover,
+  &.osjs__active {
+    background-color: #fff;
+    color: #000;
+  }
+}

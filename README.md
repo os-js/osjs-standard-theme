@@ -20,6 +20,6 @@ This is the Default Theme module for OS.js v3
 ## Installation
 
 ```bash
-npm install --save @osjs/standard-theme
+npm install --save --production @osjs/standard-theme
 npm run package:discover
 ```
