@@ -152,7 +152,7 @@
     color: $active-foreground;
   }
 
-  .rows > div:nth-child(2n+1):not(.osjs__active) {
+  .rows:not([data-zebra="false"]) > div:nth-child(2n+1):not(.osjs__active) {
     background-color: $zebra-background;
   }
 }
