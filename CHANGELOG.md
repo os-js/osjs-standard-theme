@@ -1,5 +1,9 @@
 # Changelog for osjs-standard-theme
 
+## 4.0.3
+
+* Updated ListView zebra styles
+
 ## 4.0.2
 
 * Added 'Expander' element styles

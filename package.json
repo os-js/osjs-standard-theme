@@ -1,6 +1,6 @@
 {
   "name": "@osjs/standard-theme",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "OS.js v3 Standard Theme",
   "files": [
     "dist/",
