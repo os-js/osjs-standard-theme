@@ -44,6 +44,7 @@
 
 .osjs-panel-item--clickable {
   cursor: pointer;
+  transition: all $transition-duration $transition-timing-function;
 
   &:hover {
     background-color: $panel-foreground;
