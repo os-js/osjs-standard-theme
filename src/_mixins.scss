@@ -45,8 +45,8 @@
 @mixin panel {
   @include shadowed;
 
-  background: rgba(0, 0, 0, 0.9);
-  color: #fff;
+  background: $panel-background;
+  color: $panel-foreground;
 }
 
 @mixin button {
