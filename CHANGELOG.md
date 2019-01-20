@@ -1,5 +1,13 @@
 # Changelog for osjs-standard-theme
 
+## 4.0.4
+
+* Add panel style and transition variables (#5)
+* Updated README
+* Updated dependencies
+* Updated build
+* Updated copyright(s)
+
 ## 4.0.3
 
 * Updated ListView zebra styles
