@@ -98,3 +98,38 @@
 
   @include shadowed;
 }
+
+@mixin range-slider-input {
+  background: transparent;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  height: $range-slider-height;
+  -webkit-appearance: none;
+}
+
+@mixin range-slider-track {
+  width: $range-slider-track-width;
+  height: $range-slider-track-height;
+  background: $view-background;
+  border-radius: $range-slider-track-border-radius;
+  border: 0 none;
+  cursor: pointer;
+}
+
+@mixin range-slider-button {
+  border: $button-border;
+  height: $range-slider-button-height;
+  width: $range-slider-button-width;
+  border-radius: $range-slider-button-border-radius;
+  background: $button-background;
+  margin-top: -$range-slider-track-height / 2;
+  cursor: pointer;
+}
+
+@mixin range-slider-ms-fill {
+  background: $view-background;
+  border: $input-border;
+  border-radius: $range-slider-track-border-radius;
+}

@@ -87,6 +87,50 @@
   }
 }
 
+.osjs-gui-range-field > input[type=range] {
+  @include range-slider-input();
+
+  width: 100%;
+
+  &::-webkit-slider-runnable-track {
+    @include range-slider-track();
+  }
+
+  &::-webkit-slider-thumb {
+    @include range-slider-button();
+
+    -webkit-appearance: none;
+  }
+
+  &::-moz-range-track {
+    @include range-slider-track();
+  }
+
+  &::-moz-range-thumb {
+    @include range-slider-button();
+  }
+
+  &::-ms-track {
+    @include range-slider-track();
+
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+  }
+
+  &::-ms-fill-lower {
+    @include range-slider-ms-fill();
+  }
+
+  &::-ms-fill-upper {
+    @include range-slider-ms-fill();
+  }
+
+  &::-ms-thumb {
+    @include range-slider-button();
+  }
+}
+
 .osjs-gui-icon-view-wrapper {
   @include input;
 
