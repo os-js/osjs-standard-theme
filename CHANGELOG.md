@@ -1,5 +1,11 @@
 # Changelog for osjs-standard-theme
 
+## 4.0.5
+
+* Change some opacitities for window panel item
+* Added custom range slider styles
+* Updated README
+
 ## 4.0.4
 
 * Add panel style and transition variables (#5)
