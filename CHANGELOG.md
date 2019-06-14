@@ -1,5 +1,9 @@
 # Changelog for osjs-standard-theme
 
+## 4.0.6
+
+* Added desktop iconview styles
+
 ## 4.0.5
 
 * Change some opacitities for window panel item
