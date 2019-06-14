@@ -69,3 +69,24 @@
     color: #000;
   }
 }
+
+//
+// Iconview
+//
+
+.osjs-desktop-iconview {
+  &__entry {
+    $self: &;
+
+    &--selected {
+      #{ $self }__icon {
+        background: $active-background;
+      }
+
+      #{ $self }__label {
+        background: $active-background;
+        color: $active-foreground;
+      }
+    }
+  }
+}
