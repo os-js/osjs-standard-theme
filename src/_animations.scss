@@ -28,7 +28,7 @@
  * @licence Simplified BSD License
  */
 
-.osjs-root > .osjs-window {
+.osjs-window {
   &[data-minimized="true"] {
     opacity: 0;
     pointer-events: none;
