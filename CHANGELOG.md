@@ -1,5 +1,12 @@
 # Changelog for osjs-standard-theme
 
+## 4.0.7
+
+* Updated dotfile usage
+* Updated dependencies
+* Updated a window CSS rule
+* Updated copyright notices in preambles
+
 ## 4.0.6
 
 * Added desktop iconview styles
