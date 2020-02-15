@@ -1,5 +1,10 @@
 # Changelog for osjs-standard-theme
 
+## 4.0.8
+
+* Updated dependencies
+* Added portuguese (pt_BR) translations to metadata (#13)
+
 ## 4.0.7
 
 * Updated dotfile usage
