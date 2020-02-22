@@ -4,7 +4,10 @@
   "description": "OS.js v3 Standard Theme",
   "files": [
     "dist/",
-    "metadata.json"
+    "metadata.json",
+    "CHANGELOG.md",
+    "README.md",
+    "CHANGELOG"
   ],
   "scripts": {
     "test": "npm run eslint && npm run stylelint",
